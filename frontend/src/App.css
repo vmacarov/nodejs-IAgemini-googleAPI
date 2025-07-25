@@ -1,0 +1,175 @@
+/*#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+*/
+
+
+/*Color y contraste:*/
+/*.user_msg p {
+  background-color: #1a1a1a;
+}
+
+.bot_msg p {
+  background-color: #444;
+}*/
+
+/*Margen inferior en el main:*/
+/*main {
+  max-width: 800px;
+  margin: auto;
+  padding-bottom: 80px; /* igual o mayor al alto del form */
+/*}*/
+
+/*Mensajes más claros según rol:*/
+/*.user_msg {
+  background-color: #1e1e2f;
+  text-align: right;
+}*/
+
+/* CONTENEDOR DE MENSAJES */
+main {
+  max-width: 800px;
+  margin: auto;
+  padding-bottom: 100px;
+  font-family: sans-serif;
+}
+
+/* MENSAJES */
+.user_msg, .bot_msg {
+  margin: 10px 0;
+  display: flex;
+}
+
+.user_msg p, .bot_msg p {
+  padding: 15px 20px;
+  border-radius: 15px;
+  max-width: 70%;
+  word-wrap: break-word;
+  transition: all 0.3s ease-in-out;
+}
+
+.user_msg {
+  justify-content: flex-end;
+}
+.user_msg p {
+  background-color: #1a1f2e;
+  color: #cfcfcf;
+  text-align: right;
+}
+
+.bot_msg {
+  justify-content: flex-start;
+}
+.bot_msg p {
+  background-color: #3a3f58;
+  color: #ffffff;
+  text-align: left;
+}
+
+/* INPUT DE MENSAJE */
+form {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 15px;
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+}
+
+input[type="text"] {
+  width: 90%;
+  max-width: 700px;
+  padding: 15px 20px;
+  border-radius: 25px;
+  border: none;
+  font-size: 16px;
+  background-color: #333;
+  color: #fff;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0 0 5px #00ffff;
+}
+
+/*.bot_msg {
+  background-color: #334;
+  text-align: left;
+}*/
+
+/*Input con sombra o borde al enfocarse:*/
+/*input:focus {
+  outline: none;
+  box-shadow: 0 0 5px #00ffff;
+}*/
+/*Transiciones suaves (opcional):*/
+/*p, input {
+  transition: all 0.3s ease-in-out;
+}*/
+/*Estilo visual sugerido (si buscás inspiración)
+
+Un ejemplo de cómo se puede ver con algunas mejoras:*/
+/*p {
+  padding: 15px 20px;
+  border-radius: 20px;
+  margin: 10px 0;
+  display: inline-block;
+  max-width: 70%;
+  word-wrap: break-word;
+}
+
+.bot_msg {
+  background-color: #3a3f58;
+  color: #fff;
+  text-align: left;
+}
+
+.user_msg {
+  background-color: #1a1f2e;
+  color: #cfcfcf;
+  text-align: right;
+  margin-left: auto;
+}
+*/
